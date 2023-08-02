@@ -1,0 +1,27 @@
+.home h2 {
+  color: #1146a6;
+  padding: 2rem 0 1rem;
+  text-align: center;
+}
+
+.memories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.memory {
+  flex: 1 1 300px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.memory img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
